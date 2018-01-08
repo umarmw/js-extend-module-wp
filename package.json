@@ -1,0 +1,26 @@
+{
+  "name": "js-extend-bundle",
+  "version": "1.0.0",
+  "description": "js webpack extend bundling",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Started\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js",
+    "webpackdev": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Proximity IO",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "webpack": "^3.10.0"
+  }
+}
