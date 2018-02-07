@@ -29,6 +29,7 @@ module.exports = {
   context: path.resolve(__dirname, inputFolderPath),
   entry: {
     app: './app.js',
+    lib: './lib.bundle'
   },
   output: {
     path: path.resolve(__dirname, outputFolderPath),
